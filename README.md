@@ -23,7 +23,7 @@ Diharapkan dengan tugas ini anda dapat mengerti:
   - Tantangan dalam pengembangan aplikasi
   - Kesimpulan 
   - Daftar pustaka
-6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama kelompok** - **NIM terkecil** - **Nama Lengkap dengan NIM terkecil** sebelum **Jumat, 20 November 2015 23.59**.
+6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama kelompok** - **NIM terkecil** - **Nama Lengkap dengan NIM terkecil** sebelum **Senin, 4 Desember 2017 23.59**.
 
 
 ### Link Laporan
