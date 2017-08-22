@@ -23,7 +23,7 @@ Diharapkan dengan tugas ini anda dapat mengerti:
   - Tantangan dalam pengembangan aplikasi
   - Kesimpulan 
   - Daftar pustaka
-6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama kelompok** - **NIM terkecil** - **Nama Lengkap dengan NIM terkecil** sebelum **Senin, 4 Desember 2017 23.59**.
+6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama kelompok** - **NIM terkecil** - **Nama Lengkap dengan NIM terkecil** sebelum **Senin, 6 Oktober 2017 23.59**.
 
 
 ### Link Laporan
@@ -36,4 +36,4 @@ Diharapkan dengan tugas ini anda dapat mengerti:
 3. E-voting
 4. Q&A system
 5. Sistem Informasi Laporan Praktikum
-6. -
+6. 
