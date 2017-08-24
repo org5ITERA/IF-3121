@@ -36,4 +36,8 @@ Diharapkan dengan tugas ini anda dapat mengerti:
 3. E-voting
 4. Q&A system
 5. Sistem Informasi Laporan Praktikum
-6. 
+6. Sistem Informasi Pendaftaran Wisuda
+
+### Dosen
+- Ahmad Luky Ramdani S.Kom., M.Kom. Email: ahmadluky@if.itera.ac.id
+- Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id 
