@@ -4,11 +4,10 @@
 
 Diharapkan dengan tugas ini anda dapat mengerti:
 * HTML, HTML 5, CSS dan Client-Side Scripting
-* Bahasa Pemrograman Server-Side Scripting serperti PHP
+* Bahasa Pemrograman Server-Side Scripting seperti PHP 
 * Package Manager (brew, composer, npm)
-* Version Control (github)
+* Version Control (git)
 * Mengimplementasikan HTML, CSS, Client-Side Scripting dan Server-Side Scripting dalam sebuah aplikasi.
-
 
 ### Petunjuk Pengerjaan
 
@@ -25,10 +24,8 @@ Diharapkan dengan tugas ini anda dapat mengerti:
   - Daftar pustaka
 6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama kelompok** - **NIM terkecil** - **Nama Lengkap dengan NIM terkecil** sebelum **Senin, 6 Oktober 2017 23.59**.
 
-
 ### Link Laporan
 *Masukkan link laporan anda di sini*
-
 
 ### Topik Aplikasi
 1. Manajemen Surat
