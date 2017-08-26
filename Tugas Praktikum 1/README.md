@@ -2,8 +2,7 @@
 
 ### Tujuan Pembuatan Tugas
 
-Diharapkan dengan tugas ini anda dapat mengerti:
-* HTML & CSS
+Diharapkan dengan tugas ini anda dapat mengerti HTML & CSS
 
 #### Masalah 1 (20 Poin)
 
@@ -11,7 +10,7 @@ Buatlah suatu file HTML yang memiliki dua tampilan / antar muka yang bebeda. Ant
 
 Jika file HTML tersebut menggunakan styleA.css maka akan tempil seperti gambar berikut:
 
-![](A.png)
+![](images/A.png)
 
 Spesifikasi Tampilan A
 1. Harus ada enam elemen kotak, berbaris vertikal.
@@ -25,7 +24,7 @@ Spesifikasi Tampilan A
 
 Jika file HTML tersebut menggunakan styleB.css maka akan tempil seperti gambar berikut:
 
-![](B.png)	
+![](images/B.png)	
 
 Spesifikasi Tampilan B
 1. Lima elemen kotak, berbaris horizontal di pojok kiri atas.
@@ -35,3 +34,7 @@ Spesifikasi Tampilan B
 5. Saat berada di atas sebuah kotak, kursor berubah menjadi icon tangan, kotak dan warna font berubah (warna: kuning, goldenrod, masing-masing).
 6. Menggunakan Font Tahoma, 40 piksel.
 7. Ada 10 piksel ruang antara huruf dan tepi kotak.
+
+
+#### Masalah 2 (50 Poin)
+Lakukan validasi HTML untuk mendapatkan stuktur HTML dan CSS yang sesuai dengan standar W3C, dengan menggunakan HTML validator di web <a href="http://validator.w3.org">http://validator.w3.org</a>
