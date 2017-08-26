@@ -11,7 +11,6 @@ Buatlah suatu file HTML yang memiliki dua tampilan / antar muka yang bebeda. Ant
 
 Jika file HTML tersebut menggunakan styleA.css maka akan tempil seperti gambar berikut:
 
-
 ![](A.png)
 
 Spesifikasi Tampilan A
