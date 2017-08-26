@@ -21,7 +21,6 @@ Spesifikasi Tampilan A
 6. Menggunakan Hhuruf Tahoma, 40 piksel.
 
 
-
 Jika file HTML tersebut menggunakan styleB.css maka akan tempil seperti gambar berikut:
 
 ![](images/B.png)	
@@ -38,3 +37,16 @@ Spesifikasi Tampilan B
 
 #### Masalah 2 (50 Poin)
 Lakukan validasi HTML untuk mendapatkan stuktur HTML dan CSS yang sesuai dengan standar W3C, dengan menggunakan HTML validator di web <a href="http://validator.w3.org">http://validator.w3.org</a>
+
+
+#### Petunjuk Pengumpulan
+
+1. Buatlah akun pada github.
+3. Fork pada repository ini dengan akun yang telah anda dibuat.
+4. Silakan commit pada repository anda (hasil fork). Lakukan berberapa commit dengan pesan yang bermakna, contoh: `fix css`, `create post done`, jangan seperti `final`, `benerin dikit`. Disarankan untuk tidak melakukan commit dengan perubahan yang besar karena akan mempengaruhi penilaian (contoh: hanya melakukan satu commit kemudian dikumpulkan).
+6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama Lengkap dengan NIM** sebelum **Kamis, 6 September 2017 23.59**.
+
+
+#### Dosen
+- Ahmad Luky Ramdani S.Kom., M.Kom. Email: ahmadluky@if.itera.ac.id
+- Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id 
