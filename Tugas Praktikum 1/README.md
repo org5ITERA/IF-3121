@@ -14,8 +14,25 @@ Jika file HTML tersebut menggunakan styleA.css maka akan tempil seperti gambar b
 
 ![](A.png)
 
+Spesifikasi Tampilan A
+1. Harus ada enam elemen kotak, berbaris vertikal.
+2. Semua kotak terpusat secara horizontal dan sama-sama berjarak vertikal, bahkan saat jendela diubah ukurannya. Dengan kata lain, jarak vertikal antar kotak tidak harus diperbaiki.
+3. Setiap kotak berukuran 100x100 piksel, dengan garis 1px (warna: #687291) di atas. Teks dipusatkan secara horizontal.
+4. Kotak warna alternatif (warna: #dfe1e7, #eeeff2).
+5. Elemen terakhir (warna: #687291) memiliki batas hitam 4px dan teks dipusatkan secara vertikal.
+6. Menggunakan Hhuruf Tahoma, 40 piksel.
+
+
 
 Jika file HTML tersebut menggunakan styleB.css maka akan tempil seperti gambar berikut:
 
+![](B.png)	
 
-![](A.png)
+Spesifikasi Tampilan B
+1. Lima elemen kotak, berbaris horizontal di pojok kiri atas.
+2. Kotak tidak dibungkus dengan ukuran jendela (yaitu Kotak A sampai E harus tetap berada pada jalur yang sama meskipun jendela browser Anda terlalu kecil untuk menampilkan semuanya).
+3. Kotak terakhir diposisikan di sudut kanan bawah jendela dan tetap di sana bahkan saat jendela diubah ukurannya.
+4. Setiap kotak adalah 100x150 piksel (warna: #eeeff2), dengan garis putus-putus 10px (warna: #D0D0FF) di sebelah kiri. Kotak dipisahkan oleh 10 piksel ruang.
+5. Saat berada di atas sebuah kotak, kursor berubah menjadi icon tangan, kotak dan warna font berubah (warna: kuning, goldenrod, masing-masing).
+6. Menggunakan Font Tahoma, 40 piksel.
+7. Ada 10 piksel ruang antara huruf dan tepi kotak.
