@@ -6,7 +6,7 @@ Diharapkan dengan tugas ini anda dapat mengerti:
 * HTML, HTML 5, CSS dan Client-Side Scripting
 * Bahasa Pemrograman Server-Side Scripting serperti PHP
 * Package Manager
-* Version Control
+* Version Control (git)
 * Mengimplementasikan HTML, CSS, Client-Side Scripting dan Server-Side Scripting dalam sebuah aplikasi.
 
 
