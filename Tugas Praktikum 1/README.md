@@ -14,11 +14,11 @@ Jika file HTML tersebut menggunakan styleA.css maka akan tempil seperti gambar b
 
 Spesifikasi Tampilan A
 1. Harus ada enam elemen kotak, berbaris vertikal.
-2. Semua kotak terpusat secara horizontal dan sama-sama berjarak vertikal, bahkan saat jendela diubah ukurannya. Dengan kata lain, jarak vertikal antar kotak tidak harus diperbaiki.
+2. Semua kotak terpusat secara horizontal dan sama-sama berjarak vertikal, termasuk pada saat jendela diubah ukurannya. Dengan kata lain, jarak vertikal antar kotak tetap dan tidak harus diperbaiki.
 3. Setiap kotak berukuran 100x100 piksel, dengan garis 1px (warna: #687291) di atas. Teks dipusatkan secara horizontal.
 4. Kotak warna alternatif (warna: #dfe1e7, #eeeff2).
 5. Elemen terakhir (warna: #687291) memiliki batas hitam 4px dan teks dipusatkan secara vertikal.
-6. Menggunakan Hhuruf Tahoma, 40 piksel.
+6. Menggunakan huruf Tahoma, 40 piksel.
 
 
 Jika file HTML tersebut menggunakan styleB.css maka akan tempil seperti gambar berikut:
