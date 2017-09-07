@@ -52,4 +52,4 @@ Lakukan validasi HTML untuk mendapatkan stuktur HTML dan CSS yang sesuai dengan 
 - Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id 
 
 #### Referensi
-Link : <a href="http://web.stanford.edu/class/cs142/index.html">http://web.stanford.edu/class/cs142/index.html</a>
+Link : <a href="http://web.stanford.edu/class/cs142/index.html">http://web.stanford.edu/class/cs142/index.html</a>.
