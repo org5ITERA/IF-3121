@@ -44,7 +44,7 @@ Lakukan validasi HTML untuk mendapatkan stuktur HTML dan CSS yang sesuai dengan 
 1. Buatlah akun pribadi anda di github.
 3. Fork pada repository ini dengan akun yang telah anda dibuat.
 4. Silakan commit pada repository anda (hasil fork). Lakukan berberapa commit dengan pesan yang bermakna, contoh: `fix css`, `create post done`, jangan seperti `final`, `benerin dikit`. Disarankan untuk tidak melakukan commit dengan perubahan yang besar karena akan mempengaruhi penilaian (contoh: hanya melakukan satu commit kemudian dikumpulkan).
-6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama Lengkap dengan NIM** sebelum **Kamis, 13 September 2017 Pukul 23.59 WIB**.
+6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama Lengkap dengan NIM** sebelum **Rabu, 12 September 2017 Pukul 23.59 WIB**.
 
 
 #### Dosen
