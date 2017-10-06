@@ -1,0 +1,113 @@
+FONT {
+  font-size: 40pt;
+  font-family: Tahoma;
+}
+
+#A1 {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+  text-indent: 10px;
+}
+
+#A1:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#A2 {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  text-indent: 10px;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#A2:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#A3 {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  text-indent: 10px;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#A3:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#A4 {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  text-indent: 10px;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#A4:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#A5 {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  text-indent: 10px;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#A5:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#A6 {
+  width: 100px;
+  height: 150px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #eeeff2;
+  text-indent: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#A6:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}

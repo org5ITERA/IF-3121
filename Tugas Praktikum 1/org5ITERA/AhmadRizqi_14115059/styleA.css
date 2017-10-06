@@ -1,0 +1,26 @@
+.boxedA {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border-top: 1px solid black;
+	text-align: center;
+	background-color: #dfe1e7;
+	width: 100px;
+	height: 100px;
+}
+
+.boxedB {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 4px solid black;
+	text-align: center;
+	background-color: #687291;
+	width: 100px;
+	height: 100px;
+}
+teks {
+	
+	font-size: 40px;
+	font-family: tahoma;
+}

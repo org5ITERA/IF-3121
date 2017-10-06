@@ -1,0 +1,114 @@
+﻿body {
+  font-size: 40pt;
+  font-family: Tahoma;
+}
+
+#a {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+  text-indent: 10px;
+}
+
+#a:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#b {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  text-indent: 10px;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#b:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#c {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  text-indent: 10px;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#c:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#d {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  text-indent: 10px;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#d:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#e {
+  width: 100px;
+  height: 150px;
+  float: left;
+  background: #eeeff2;
+  text-indent: 10px;
+  margin-right: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#e:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+#f {
+  width: 100px;
+  height: 150px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #eeeff2;
+  text-indent: 10px;
+  border-left-style: dashed;
+  border-left-width: 10px;
+  border-left-color: #D0D0FF;
+}
+
+#f:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+

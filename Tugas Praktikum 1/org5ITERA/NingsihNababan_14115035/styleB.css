@@ -1,0 +1,38 @@
+
+    button{
+      width: 100px;
+   height: 150px;
+   float: left;
+   background: #eeeff2;
+   text-indent: 10px;
+   margin-right: 10px;
+   border-left-style: dashed;
+   border-left-width: 10px;
+   border-left-color: #D0D0FF;
+   border-top: none;
+   border-bottom: none;
+   border-right: none;
+   cursor: pointer;
+   font-family: Tahoma;
+   font-size: 40px;
+    }
+
+
+    button:hover,.F:hover{
+        background-color: #FFFF00;
+        color:#DAA51F;
+    }
+
+    .F{
+        position: fixed;
+        bottom:0;
+        right: 0;
+        border-left: 10px dashed #D0D0FF;
+	      width: 100px; height: 150px;
+	      background-color: #eeeff2;
+	      font-family: Tahoma; font-size: 40px;
+        text-indent: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+
+    }

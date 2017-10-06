@@ -1,0 +1,52 @@
+.boxedA:hover {
+	background: yellow;
+	cursor: pointer;
+	color: goldenrod;
+}
+.boxedB:hover {
+	background: yellow;
+	cursor: pointer;
+	color: goldenrod;
+}
+p {
+	margin-top: 0px;
+	position: relative;
+	top: 8px;
+	left: 20px;
+	font-size: 40px;
+	font-family: tahoma;
+}
+
+.small {
+	position: left;
+	margin-bottom: 10px;
+	width: 10px;
+	height: 10px;
+	background-color: #D0D0FF;
+}
+.boxedA {
+
+	float: left;
+	position: left;
+	margin-left: auto;
+	margin-right: 10px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: #eeeff2;
+	width: 100px;
+	height: 150px;
+}
+
+.boxedB {
+	position: fixed; 
+	bottom: 10px;
+	right: 10px; 
+	
+	margin-left: auto;
+	margin-top: 20px;
+	text-align: center;
+	background-color: #eeeff2;
+	width: 100px;
+	height: 150px;
+}
+
