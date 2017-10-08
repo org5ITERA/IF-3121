@@ -46,28 +46,29 @@ else {
           <div class="scroll">  
         <?php
 
-        $sql= "select * from user where username='$username'";
-        $run_sql = mysqli_query($db,$sql);
-        $info = mysqli_fetch_array($run_sql);
-        $uid = $info['id'];
-
-        $tanya = "select * from question";
+        $tanya = "select * from question"; 
         $run_tanya = mysqli_query($db,$tanya);
-        
-        $countanswer = "select * from answer where id_user='$uid' ";
-        $run_count = mysqli_query($db,$countanswer);
-        $count = mysqli_num_rows($run_count);
 
         while ($row_tanya=mysqli_fetch_array($run_tanya)){
-
+          $id = $row_tanya['id'];
           $judul = $row_tanya['judul'];
           $waktu = $row_tanya['waktu'];
           $phpdate = strtotime( $waktu );
           $date = date( 'd-m-Y H:i', $phpdate );
+          $info_question_id_user = $row_tanya['id_user'];
+          $sql= "select * from user where id = '$info_question_id_user'";
+          $run_sql = mysqli_query($db,$sql);
+          $info = mysqli_fetch_array($run_sql);
+          $info_question_username = $info['username'];
         ?>
         <fieldset>
-            
-              <a href=""><?php echo"$judul" ?></a>
+        <?php 
+        $countanswer = "select * from answer where id_question='$id' ";
+        $run_count = mysqli_query($db,$countanswer);
+        $count = mysqli_num_rows($run_count); 
+        ?>
+              <h5><?php echo "$info_question_username"?></h5>
+              <a href="pertanyaan-populer.php?id=<?php echo "$id" ?>"><?php echo"$judul" ?></a>
               <br>
               <h4><?php echo" $count Komentar | $date"?></h4>
               <hr class="garis"></hr>

@@ -95,7 +95,14 @@ function answer(){
 		$run_sql = mysqli_query($db,$sql);
 		$info = mysqli_fetch_array($run_sql);
 		$id = $info['id'];
+		$id_tanyaan = $_SESSION['id_tanyaa'];
+		$jawaban = mysql_real_escape_string($_POST['jawab_txt']);
+		$query = ("insert into answer (id_question,id_user,answer,waktu) VALUES ('$id_tanyaan','$id','$jawaban',NOW());");
+		$run = mysqli_query($db,$query);
 
+		echo "<script> alert('BERHASIL TERKIRIM') </script>";
+
+		echo "<script>window.open('pertanyaan-populer.php?id=$id_tanyaan','_self')</script>";
 	}
 }
 
