@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "root","1234567890","Tugas-Besar");
+$db = mysqli_connect("localhost", "root","","Tugas-Besar");
 
 function login(){
 

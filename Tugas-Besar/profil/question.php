@@ -21,7 +21,6 @@ while ($row_tarik=mysqli_fetch_array($run_tarik)){
   $date = date( 'd-m-Y H:i', $phpdate );
  ?>
 <div class="pertanyaan_recent">
-    <center><h3>PERTANYAAN SAYA</h3></center>
     <fieldset>
       <h2><a href="../question.php?id=<?php echo "$id" ?>"><?php echo"$judul" ?></a></h2>
       <br>

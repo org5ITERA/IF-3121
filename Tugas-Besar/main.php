@@ -2,7 +2,7 @@
 <?php
 session_start();
 include("functions/functions.php");
-
+$username = $_SESSION['username'];
 if (!isset($_SESSION['username'])) {
   echo "<script>window.open('index.php','_self')</script>";
 }
@@ -40,56 +40,47 @@ else {
             ?>
         </fieldset>
         </div>
-
+        
         <div class="pertanyaan_pop">
-            <h3>PERTANYAAN POPULER</h3>
-            <fieldset>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-            </fieldset>
-        </div>
+          <h3>PERTANYAAN POPULER</h3>
+          <div class="scroll">  
+        <?php
 
-        <div class="pertanyaan_recent">
-            <h3>PERTANYAAN SAYA</h3>
-            <fieldset>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-                <hr class="garis"></hr>
-                <a href="">Apakah saya bisa.........</a>
-                <br>
-                <h4>Komentar Dilihat</h4>
-            </fieldset>
+        $sql= "select * from user where username='$username'";
+        $run_sql = mysqli_query($db,$sql);
+        $info = mysqli_fetch_array($run_sql);
+        $uid = $info['id'];
+
+        $tanya = "select * from question";
+        $run_tanya = mysqli_query($db,$tanya);
+        
+        $countanswer = "select * from answer where id_user='$uid' ";
+        $run_count = mysqli_query($db,$countanswer);
+        $count = mysqli_num_rows($run_count);
+
+        while ($row_tanya=mysqli_fetch_array($run_tanya)){
+
+          $judul = $row_tanya['judul'];
+          $waktu = $row_tanya['waktu'];
+          $phpdate = strtotime( $waktu );
+          $date = date( 'd-m-Y H:i', $phpdate );
+        ?>
+        <fieldset>
+            
+              <a href=""><?php echo"$judul" ?></a>
+              <br>
+              <h4><?php echo" $count Komentar | $date"?></h4>
+              <hr class="garis"></hr>
+            
+          </fieldset>
+       
+      <?php } ?>
+      </div>
+       </div>
+        <div id="footer">
+
+        <h3>&copy; 2017 by <a href="http://github.com/org5ITERA">org5ITERA</a></h3>
+
         </div>
 
 	</body>
