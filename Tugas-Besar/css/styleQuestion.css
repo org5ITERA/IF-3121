@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: pink;
+}
+body img{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.kotakkecil{
+    background: grey;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    border: solid 1px #eceff5;
+    line-height: 30px;
+    color: white;
+}
+.menu{
+    background-color: #87CEFA;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+div.menu ul {
+    list-style:none;
+    overflow: hidden;
+}
+
+div.menu ul li {
+    float:left;
+    text-transform:uppercase;
+}
+
+div.menu ul li a {
+    display:block;
+    padding:0 20px;
+    text-decoration:none;
+    color:#2c2c2c;
+    font-family: sans-serif;
+    font-size:13px;
+    font-weight:400;
+    transition:all 0.3s ease-in-out;
+}
+
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {
+    cursor: pointer;
+    color:#fff;
+}
+.home{
+    margin-top: 10px;
+    max-width: 1100px;
+    max-height: 2000px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px #aaa;
+    left: 70px;
+    position: relative;
+}
+.home h1{
+    background: #e6f9ff;
+    font-size: 14px;
+}
+.home h3{
+    text-align: left;
+    padding: 15px 10px;
+    background-color: #2b2f3e;
+    color: #b0b0bc;
+}
+.home h4 {
+    word-spacing: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.home h6{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.home h5 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.kotakkomentar{
+    background: lightblue;
+    font-size: 14px;
+    margin-right: 50px;
+    margin-left: 50px;
+    max-height: 1000px;
+}
+fieldset{
+    margin: 0;
+    border: none;
+}
+form{
+    padding: 0;
+    margin: 0;
+    padding: 15px;
+}
+input[type='text']{
+    width: 99%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: #3b5998;
+    width: 15%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    margin-left: 82%;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    opacity: 0.8;
+    border-color: #00adb1;
+}
+textarea {
+    margin-left: 25px;
+    width: 94.5%;
+    height: 200px;
+    font-size: 23px;
+}
+button{
+    background-color: #3b5998;
+    width: 15%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    margin-left: 85%;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
+    font-size: 15px;
+}
+button:hover{
+    opacity: 0.9;
+    border-color: #3b3998;
+}
+a {
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
+}
+.garis{
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+     top: 0px;
+     left: 0px;
+     color: 100px #f9f9f9;
+}
+#footer{
+    position: fixed;
+    z-index: 50;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center; 
+}
+.scroll{
+  padding: 24px;
+  overflow: scroll;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
