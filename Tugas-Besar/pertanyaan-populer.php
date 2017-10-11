@@ -34,8 +34,8 @@ $rincian = $info['question'];
         <h4><?php echo "$rincian" ?></h4>
         <h6>JAWABAN</h6>
         <?php
-            $jawab = "select * from answer where id_question = '$id_tanya'"; 
-            $run_jawab = mysqli_query($db,$jawab); 
+            $jawab = "select * from answer where id_question = '$id_tanya'";
+            $run_jawab = mysqli_query($db,$jawab);
 
             while ($row_jawab=mysqli_fetch_array($run_jawab)){
               $waktu = $row_jawab['waktu'];
@@ -49,17 +49,17 @@ $rincian = $info['question'];
               $rincian_jawab = $row_jawab['answer'];
         ?>
         <div class="kotakkomentar">
-            
+
         	<h5><?php echo "$info_jawab_username" ?></h5>
             <h1><?php echo "$rincian_jawab" ?></h1>
-            <h2><?php echo "$waktu" ?></h2>            
+            <h2><?php echo "$waktu" ?></h2>
         </div>
         <?php } ?>
         <fieldset>
             <form method="POST" action="">
                 <textarea placeholder="Tambah Jawaban" name="jawab_txt"></textarea>
                 <input name="JAWAB" type="submit" value="JAWAB" />
-            </form>  
+            </form>
             <?php answer() ?>
         </fieldset>
         </div>

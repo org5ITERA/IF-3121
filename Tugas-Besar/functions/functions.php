@@ -106,4 +106,21 @@ function answer(){
 	}
 }
 
+function resetpassword(){
+	if (isset($_POST['reset'])) {
+		global $db;
+		$email = $_GET['email'];
+		$passwd = $_POST['baru1'];
+		$sql_cekpass = "select id from user where Email='$email'";
+
+		$run_cekpass = mysqli_query($db,$sql_cekpass);
+		$info = mysqli_fetch_array($run_cekpass);
+		$id = $info['id'];
+		$sql_newpass = "update user set password='$passwd' where id='$id'";
+		$run_newpass = mysqli_query($db,$sql_newpass);
+		echo "<script>alert('Password anda sudah di perbarui')</script>";
+		echo "<script> window.open('index.php','_self') </script>";
+
+	}
+}
 ?>
