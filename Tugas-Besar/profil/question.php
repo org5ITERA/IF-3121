@@ -22,7 +22,7 @@ while ($row_tarik=mysqli_fetch_array($run_tarik)){
  ?>
 <div class="pertanyaan_recent">
     <fieldset>
-      <h2><a href="../question.php?id=<?php echo "$id" ?>"><?php echo"$judul" ?></a></h2>
+      <h2><a href="../pertanyaan-populer.php?id=<?php echo "$id" ?>"><?php echo"$judul" ?></a></h2>
       <br>
       <h4><?php echo" $count Komentar | $date"?></h4>
       <hr class="garis"></hr>
