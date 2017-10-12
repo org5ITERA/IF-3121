@@ -4,7 +4,11 @@
 
 Diharapkan dengan tugas ini anda dapat mengerti:
 * HTML, HTML 5, CSS dan Client-Side Scripting
+<<<<<<< HEAD
 * Bahasa Pemrograman Server-Side Scripting seperti PHP
+=======
+* Bahasa Pemrograman Server-Side Scripting seperti PHP 
+>>>>>>> 9e62af8b4b63dfe6a8b3fbe70f2a9b94c0e80d7b
 * Package Manager (brew, composer, npm)
 * Version Control (git)
 * Mengimplementasikan HTML, CSS, Client-Side Scripting dan Server-Side Scripting dalam sebuah aplikasi.
@@ -20,12 +24,20 @@ Diharapkan dengan tugas ini anda dapat mengerti:
   - Fitur dan penjelasan singkat tentang aplikasi
   - Arsitektur aplikasi
   - Tantangan dalam pengembangan aplikasi
+<<<<<<< HEAD
   - Kesimpulan
+=======
+  - Kesimpulan 
+>>>>>>> 9e62af8b4b63dfe6a8b3fbe70f2a9b94c0e80d7b
   - Daftar pustaka
 6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama kelompok** - **NIM terkecil** - **Nama Lengkap dengan NIM terkecil** sebelum **Senin, 6 Oktober 2017 23.59**.
 
 ### Link Laporan
+<<<<<<< HEAD
 https://drive.google.com/file/d/0B_58SjiXxWgRR3hhYXFEbkMtZDg/view
+=======
+*Masukkan link laporan anda di sini*
+>>>>>>> 9e62af8b4b63dfe6a8b3fbe70f2a9b94c0e80d7b
 
 ### Topik Aplikasi
 1. Manajemen Surat
@@ -37,4 +49,8 @@ https://drive.google.com/file/d/0B_58SjiXxWgRR3hhYXFEbkMtZDg/view
 
 ### Dosen
 - Ahmad Luky Ramdani S.Kom., M.Kom. Email: ahmadluky@if.itera.ac.id
+<<<<<<< HEAD
 - Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id
+=======
+- Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id 
+>>>>>>> 9e62af8b4b63dfe6a8b3fbe70f2a9b94c0e80d7b
