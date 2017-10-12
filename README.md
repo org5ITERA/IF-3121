@@ -4,7 +4,7 @@
 
 Diharapkan dengan tugas ini anda dapat mengerti:
 * HTML, HTML 5, CSS dan Client-Side Scripting
-* Bahasa Pemrograman Server-Side Scripting seperti PHP 
+* Bahasa Pemrograman Server-Side Scripting seperti PHP
 * Package Manager (brew, composer, npm)
 * Version Control (git)
 * Mengimplementasikan HTML, CSS, Client-Side Scripting dan Server-Side Scripting dalam sebuah aplikasi.
@@ -20,12 +20,12 @@ Diharapkan dengan tugas ini anda dapat mengerti:
   - Fitur dan penjelasan singkat tentang aplikasi
   - Arsitektur aplikasi
   - Tantangan dalam pengembangan aplikasi
-  - Kesimpulan 
+  - Kesimpulan
   - Daftar pustaka
 6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama kelompok** - **NIM terkecil** - **Nama Lengkap dengan NIM terkecil** sebelum **Senin, 6 Oktober 2017 23.59**.
 
 ### Link Laporan
-*Masukkan link laporan anda di sini*
+https://drive.google.com/file/d/0B_58SjiXxWgRR3hhYXFEbkMtZDg/view
 
 ### Topik Aplikasi
 1. Manajemen Surat
@@ -37,4 +37,4 @@ Diharapkan dengan tugas ini anda dapat mengerti:
 
 ### Dosen
 - Ahmad Luky Ramdani S.Kom., M.Kom. Email: ahmadluky@if.itera.ac.id
-- Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id 
+- Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id
