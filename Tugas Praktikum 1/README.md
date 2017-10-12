@@ -23,7 +23,7 @@ Spesifikasi Tampilan A
 
 Jika file HTML tersebut menggunakan styleB.css maka akan tempil seperti gambar berikut:
 
-![](images/B.png)	
+![](images/B.png)
 
 Spesifikasi Tampilan B
 1. Lima elemen kotak, berbaris horizontal di pojok kiri atas.
@@ -44,16 +44,12 @@ Lakukan validasi HTML untuk mendapatkan stuktur HTML dan CSS yang sesuai dengan 
 1. Buatlah akun pribadi anda di github.
 3. Fork pada repository ini dengan akun yang telah anda dibuat.
 4. Silakan commit pada repository anda (hasil fork). Lakukan berberapa commit dengan pesan yang bermakna, contoh: `fix css`, `create post done`, jangan seperti `final`, `benerin dikit`. Disarankan untuk tidak melakukan commit dengan perubahan yang besar karena akan mempengaruhi penilaian (contoh: hanya melakukan satu commit kemudian dikumpulkan).
-<<<<<<< HEAD
-6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama Lengkap dengan NIM** sebelum **Kamis, 6 September 2017 23.59**.
-=======
 6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama Lengkap dengan NIM** sebelum **Rabu, 12 September 2017 Pukul 23.59 WIB**.
->>>>>>> 9e62af8b4b63dfe6a8b3fbe70f2a9b94c0e80d7b
 
 
 #### Dosen
 - Ahmad Luky Ramdani S.Kom., M.Kom. Email: ahmadluky@if.itera.ac.id
-- Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id 
+- Hafiz Budi Firmansyah, S.Kom., M.Sc. Email: hafiz.budi@itera.ac.id
 
 #### Referensi
 Link : <a href="http://web.stanford.edu/class/cs142/index.html">http://web.stanford.edu/class/cs142/index.html</a>.
