@@ -23,7 +23,7 @@ while ($row_tarik=mysqli_fetch_array($run_tarik)){
     $run_count = mysqli_query($db,$countanswer);
     $count = mysqli_num_rows($run_count);
     ?>
-      <h2><a href="../pertanyaan-populer.php?id=<?php echo "$id" ?>"><?php echo"$judul" ?></a></h2>
+      <h2><a href="../pertanyaan.php?id=<?php echo "$id" ?>"><?php echo"$judul" ?></a></h2>
       <br>
       <h4><?php echo" $count Komentar | $date"?></h4>
       <hr class="garis"></hr>

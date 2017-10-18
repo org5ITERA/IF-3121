@@ -102,7 +102,7 @@ function answer(){
 
 		echo "<script> alert('BERHASIL TERKIRIM') </script>";
 
-		echo "<script>window.open('pertanyaan-populer.php?id=$id_tanyaan','_self')</script>";
+		echo "<script>window.open('pertanyaan.php?id=$id_tanyaan','_self')</script>";
 	}
 }
 

@@ -42,11 +42,11 @@ else {
         </div>
         
         <div class="pertanyaan_pop">
-          <h3>PERTANYAAN POPULER</h3>
+          <h3>PERTANYAAN TERBARU</h3>
           <div class="scroll">  
         <?php
 
-        $tanya = "select * from question"; 
+        $tanya = "select * from question order by waktu desc"; 
         $run_tanya = mysqli_query($db,$tanya);
 
         while ($row_tanya=mysqli_fetch_array($run_tanya)){
@@ -68,7 +68,7 @@ else {
         $count = mysqli_num_rows($run_count); 
         ?>
               <h5><?php echo "$info_question_username"?></h5>
-              <a href="pertanyaan-populer.php?id=<?php echo "$id" ?>"><?php echo"$judul" ?></a>
+              <a href="pertanyaan.php?id=<?php echo "$id" ?>"><?php echo"$judul" ?></a>
               <br>
               <h4><?php echo" $count Komentar | $date"?></h4>
               <hr class="garis"></hr>
